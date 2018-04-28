@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Sign up</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class = "container-table col-6 offset-3">
+						<header>
+							<span class="avatar"><img src="images/Rectangle.png" alt="" /></span>
+							<h1>Sign up now and begin sharing today!</h1>
+							<div class="container-table col-6 offset-3" id="split left" >
+
+								<p>Share MD is a confidential platform that allows physicians to share their
+									experiences and gain support through an inclusive community.
+									We encourage you to share all your experiences; whether it be adversity
+									that you’ve overcome or an inspiring moment, someone is always there to
+									support you or to relate. To promote physician wellness and to provide a
+									safe platform for experience sharing, Share MD reminds them that they are
+									not alone.</p>
+							</div>
+
+							<!-- class="container col-4 container-table"-->
+							<div class="container col-4 container-table" id="split right" style = "width: 50%; margin-left: 25%; position: relative;">
+								<div class="form-label-group" style="margin: 10px">
+									<input type="text" id="inputCMA" class="form-control" placeholder="CMA ID" required autofocus>
+								</div>
+
+								<div class="form-label-group"style="margin: 10px">
+									<input type="email" id="inputEmail" class="form-control" placeholder="Enter Email address" required autofocus>
+								</div>
+
+								<div class="form-label-group"style="margin: 10px">
+									<input type="password" id="inputPassword" class="form-control" placeholder="Create Password" required>
+								</div>
+
+								<div class="checkbox mb-3">
+									<label>       <!--Placeholder space here -->
+
+									</label>
+								</div>
+								<button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
+							</div>
+						</header>
+
+						<footer>
+							<ul class="icons">
+
+							</ul>
+						</footer>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; 04 / 2018</li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+
+	</body>
+</html>
